@@ -1,0 +1,85 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+	.heading{
+		font-size: 40px;
+       text-align: center;
+       margin-top: 50px;
+       text-shadow: 1px 1px 3px grey;
+	}
+	div > div{
+		margin-top: 60px;
+		width: 31%;
+		height: 180px;
+		float: left;
+		border: 1px solid black;
+		margin-left: 1.16%;
+		box-sizing: border-box;
+		margin-right: 1.16%;
+		background-color: grey;
+		color: white;
+		font-family: verdana;
+		overflow: auto;
+		overflow-x: hidden;
+		position: relative;
+		padding: 45px 15px 10px 15px;
+	    font-size: 16px;
+		text-align: justify;
+		box-shadow: 2px 2px 5px 2px grey;
+	}
+
+	.title{
+		font-size: 17px;
+		position:absolute;
+		font-weight: 550;
+		right: -1px;
+		top: -1px;
+		height: 35px;
+		width: 25%;
+		text-align: center;
+		background-color: green;
+		padding-top: 4px;
+		border: 1px solid black;
+		box-sizing: border-box;
+	}
+
+	@media(min-width:992px){
+		div > div{
+			width: 31%;
+			margin-left: 1.16%;
+            margin-right: 1.16%;
+		}
+	}
+	div > div:nth-child(1) > e {
+		background-color: lightgreen;
+		color: black;
+}
+	div > div:nth-child(2) > e {
+		background-color: yellow;
+		color: black;
+}
+ 	div > div:nth-child(3) > e {
+		background-color: lightblue;
+		color: black;
+}
+	@media(min-width:768px) and (max-width:991px){
+	    div > div{
+			width: 45%;
+			margin-left: 2.5%;
+            margin-right: 2.5%;
+		}
+		div > div:nth-child(3){
+			width: 95%;
+			margin-left: 2.5%;
+            margin-right: 2.5%;
+		}	
+	}
+	@media(max-width: 767px){
+		div > div{
+			width: 90%;
+			margin-left: 5%;
+            margin-right: 5%;
+		}
+	}
+	
